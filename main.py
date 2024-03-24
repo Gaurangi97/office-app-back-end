@@ -1,11 +1,9 @@
 from MySQLdb import MySQLError
-from flask import Flask, jsonify, request
-from flask import Flask, render_template, request, redirect, url_for, session
+from flask import Flask
 from flask_mysqldb import MySQL
 from flask_cors import CORS
 
 import MySQLdb.cursors
-import MySQLdb.cursors, re, hashlib
 import db as db
 import api as api
 
